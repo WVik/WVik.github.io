@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Ongoing Projects &middot; Vikram Waradpande
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://subhojyoti.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="https://subhojyoti.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="https://subhojyoti.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:400,400italic,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <link rel="stylesheet" href="https://subhojyoti.github.io/public/css/custom.css">
+</head>
+
+
+  <body class='theme-base-08'>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <img src="/img/28161552_2055185257829201_1751169780234362805_o.jpg" style="border-radius:50%" width="50%">
+        <a href="http://localhost:4000">
+          Vikram Waradpande
+        </a>
+      </h1>
+      <p class="lead">BITS, Pilani</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/pubs/">Publications</a>
+      <br>
+      <a class="sidebar-nav-item" href="/MSThesis/">MS Thesis</a>
+      <br>
+      <a class="sidebar-nav-item" href="/internship/">Internships</a>
+      <br>
+      <a class="sidebar-nav-item" href="/ongoing/">Ongoing Projects</a>
+      <br>
+      <a class="sidebar-nav-item" href="/collaborators/">Collaborators</a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </nav>
+
+
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 class="page-title">Ongoing Projects</h1>
+  <ol>
+<li><em>Improved Changepoint Detection in Piecewise i.i.d Bandits</em>, Subhojyoti Mukherjee, Odalric-Ambrym Maillard (INRIA, Sequel Lab, Lille, France)</li>
+</ol>
+
+<ul>
+<li><h3>Abstract</h3>
+
+<p><details>
+    <summary>
+      Show details
+    </summary>
+      <p> We consider the setup of stochastic multi-armed bandits in the case when reward distributions are piecewise i.i.d. with unknown changepoints. Out of generality, we assume the reward distributions to be bounded and thus do not restrict to specific parametric exponential families. Due to the regret minimization objective, we study the change of mean, in the context when not only the change times are unknown, but also the mean before and after any change. We focus on the case when changes happen simultaneously on all arms, and in stark contrast with the existing literature, we target gap-dependent (as opposed to only gap-independent) regret bounds involving the magnitude of changes and optimality-gaps. We introduce two simple adaptations of UCB-strategies that employ scan-statistics in order to actively detect the changepoints, without knowing in advance the number of changepoints G. We also derive gap-independent regret bounds. The first strategy UCB-CPD does not know the time horizon T and achieve a O(√(GT)log T) regret bound, while the second strategy ImpCPD makes use of the knowledge of T to remove the log T dependency thereby closing an important gap with respect to the lower bound. Empirically, ImpCPD outperforms most of the passive and adaptive algorithms except the oracle-based algorithms that have access to the exact changepoints in all the considered environments.</p>
+  </details></p></li>
+</ul>
+
+<ol>
+<li><em>Online Stochastic Low-Rank Latent Bandits</em>, Subhojyoti Mukherjee, Branislav Kveton, Anup Rao, Zheng Wen</li>
+</ol>
+
+<ul>
+<li><h3>Abstract</h3>
+
+<p><details>
+    <summary>
+      Show details
+    </summary>
+      <p> We study the problem of recommending the best items to users who are coming sequentially. The learner has access to very less prior information about the users and it has to adapt quickly to the user preferences and suggest the best item to each user. Furthermore, we consider the setting where users are grouped into clusters and within each cluster the users have the same choice of the best item, even though their quality of preference may be different for the best item. These clusters along with the choice of the best item for each user are unknown to the learner.  Also, we assume that each user has a single best item preference. This complex problem can be conceptualized as a low rank stochastic bandit problem where the goal of the learner is to minimize the cumulative regret by quickly identifying the best item for each user. </p>
+   </details></p></li>
+</ul>
+
+</div>
+
+    </div>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { extensions: ["AMSmath.js","AMSsymbols.js"] }});
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  </body>
+</html>

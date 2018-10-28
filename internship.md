@@ -4,10 +4,6 @@ title: Internships
 ---
 
 
-
-#Internships
-
-
 ##1. Microsoft - IDC, Hyderabad
 I worked with Microsoft India Development Center in the summer of 2018. I was in the STCI team, specifically Bing. There are multiple teams in Bing, and I was a part of the Knowledge Graph team, called **Satori**. I worked with one of India's leading data scientist, Joy Mustafi.
 My work was on entitity classification problem. As one can imagine, Bing has a mammoth task of being able to answer queries of so many different kinds. For efficient answering of queries, every entity in the database has to be given a type. In fact, each entity is a part of an ontology. My task was to improve the precision and recall of the this classification. I used **Machine Learning** and **NLP** techniques to do so. I not only learnt these skills, but it made gave me insight on how these techniques are employed on such a large scale. It was a wonderful experience working with Microsoft for 8 weeks!

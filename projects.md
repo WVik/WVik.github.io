@@ -17,7 +17,7 @@ As a part of the course **Data Mining (CS F415)**, I implemented classification 
 
 ##3. SVD, LRA and Clustering algorithms
 I worked with [Prof. Rajiv Kumar](http://universe.bits-pilani.ac.in/pilani/rkumar/profile) in an independent project on **Graphs and Networks**. The project was on applications of two powerful linear algebra techniques, viz. **Singular Value Decomposition**, and **Low Rank Approximation** and their applications to graph clustering. **Python** scripts for finding out clusters in a graph was also written.
-* Project Report: [Report](https://drive.google.com/file/d/0B3ikU0vFkb1PT2d1S0lQRVdDMlN0SzduMnEyaTBnWGI4RmpJ/view?usp=sharing)
+* Project Report: [Report](https://drive.google.com/file/d/1ESjxwRwke7yUaEkn5crUTA2MslGPoLRU/view?usp=sharing)
 * Code : [Clustering Algorithms](https://github.com/WVik/clustering-algorithms-and-SVD)
 
 ##4. YouTube Content Filter

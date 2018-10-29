@@ -4,7 +4,7 @@
  <title>Vikram Waradpande</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-10-29T21:35:20+05:30</updated>
+ <updated>2018-10-29T21:51:10+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Vikram Waradpande</name>
@@ -19,7 +19,7 @@
    <id>http://localhost:4000/2016/09/06/about</id>
    <content type="html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;I am a fourth year undergrad at &lt;a href=&quot;http://www.bits-pilani.ac.in/&quot;&gt;Birla Institute of Technology and Science, Pilani&lt;/a&gt;. I’m pursuing B.E. Computer Science and MSc. Mathematics here at BITS (2015-2020). You can find more about me &lt;a href=&quot;https://www.wvik.github.io/aboutme&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am a fourth year undergrad at &lt;a href=&quot;http://www.bits-pilani.ac.in/&quot;&gt;Birla Institute of Technology and Science, Pilani&lt;/a&gt;. I’m pursuing B.E. Computer Science and MSc. Mathematics here at BITS (2015-2020). You can find more about me &lt;a href=&quot;https://wvik.github.io/about/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;resume&quot;&gt;Resume&lt;/h1&gt;
 

@@ -6,6 +6,8 @@ highlighter:      rouge
 permalink:        pretty
 #relative_permalinks: true
 
+
+
 # Setup
 title:            Vikram Waradpande
 tagline:          '4th Year Undergraduate'
@@ -16,6 +18,8 @@ baseurl:          /
 author:
   name:           'Vikram Waradpande'
   url:            https://wvik.github.io/
+
+plugins: [jekyll-paginate]
 
 paginate:         5
 

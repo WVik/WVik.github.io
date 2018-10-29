@@ -19,7 +19,7 @@ author:
   name:           'Vikram Waradpande'
   url:            https://wvik.github.io/
 
-plugins: [jekyll-paginate]
+plugins:          [jekyll-paginate]
 
 paginate:         5
 

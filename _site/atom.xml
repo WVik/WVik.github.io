@@ -4,7 +4,7 @@
  <title>Vikram Waradpande</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-10-24T13:31:21+05:30</updated>
+ <updated>2018-10-29T19:55:12+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Vikram Waradpande</name>
@@ -13,22 +13,21 @@
 
  
  <entry>
-   <title>Subhojyoti Mukherjee</title>
+   <title>Vikram Waradpande</title>
    <link href="http://localhost:4000/2016/09/06/about/"/>
    <updated>2016-09-06T00:00:00+05:30</updated>
    <id>http://localhost:4000/2016/09/06/about</id>
-   <content type="html">&lt;p&gt;I am a first year Ph.D. candidate in the &lt;a href=&quot;https://www.cics.umass.edu/&quot;&gt;College of Information and Computer Sciences, University of Massachusetts Amherst&lt;/a&gt; from Fall, 2018. 
-   Prevously, I was an M.S (Research) scholar in the &lt;a href=&quot;https://www.cse.iitm.ac.in/&quot;&gt;Computer Science and Engineering Department, IIT Madras&lt;/a&gt; from January, 2015 to January, 2018. I was advised by &lt;a href=&quot;https://www.cse.iitm.ac.in/%7Eravi/&quot;&gt;Dr. Balaraman Ravindran&lt;/a&gt; (CSE Department, IIT Madras) and &lt;a href=&quot;https://doms.iitm.ac.in/index.php/nandan-s&quot;&gt;Dr. Nandan Sudarsanam&lt;/a&gt; (Department of Management Studies, IIT Madras). I was associated with the &lt;a href=&quot;http://rise.cse.iitm.ac.in/rise1/index.html&quot;&gt;RISE&lt;/a&gt; lab at IIT Madras. I worked in the area of stochastic and non-stocahstic &lt;a href=&quot;https://en.wikipedia.org/wiki/Multi-armed_bandit&quot;&gt;Multi-Armed Bandit&lt;/a&gt; settings.&lt;/p&gt;
+   <content type="html">&lt;h2 id=&quot;hello-there&quot;&gt;Hello There!&lt;/h2&gt;
 
-&lt;p&gt;I completed my B.Tech from &lt;a href=&quot;http://www.msit.edu.in/&quot;&gt;Meghnad Saha Institute of Technology&lt;/a&gt;, Kolkata under &lt;a href=&quot;http://www.wbut.ac.in/&quot;&gt;West Bengal University of Technology&lt;/a&gt; on 2013.&lt;/p&gt;
+&lt;p&gt;I am a fourth year undergrad at &lt;a href=&quot;http://www.bits-pilani.ac.in/&quot;&gt;Birla Institute of Technology and Science, Pilani&lt;/a&gt;. I’m pursuing B.E. Computer Science and MSc. Mathematics here at BITS (2015-2020). You can find more about me &lt;a href=&quot;https://www.wvik.github.io/aboutme&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1&gt;Resume&lt;/h1&gt;
+&lt;h1 id=&quot;resume&quot;&gt;Resume&lt;/h1&gt;
 
-&lt;p&gt;You can find my full resume here (&lt;a href=&quot;/pdf/subho_cv.pdf&quot;&gt;Resume&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;You can find my full resume here (&lt;a href=&quot;/pdf/Resume_VikramW.pdf&quot;&gt;Resume&lt;/a&gt;).&lt;/p&gt;
 
-&lt;h1&gt;Contact&lt;/h1&gt;
+&lt;h1 id=&quot;contact&quot;&gt;Contact&lt;/h1&gt;
 
-&lt;p&gt;subho [at] cs [dot] umass [dot] edu&lt;/p&gt;
+&lt;p&gt;f2015454 [at] pilani [dot] bits-pilani [dot] ac [dot] in&lt;/p&gt;
 </content>
  </entry>
  

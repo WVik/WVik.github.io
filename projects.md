@@ -3,10 +3,10 @@ layout: page
 title: Projects
 ---
 
-
+<br>
 
 ## 1. Parallelisation of Graph Clustering Algorithms
-Currently I work in the Advanced Data Analytics and Parallel Technologies (ADAPT) Lab at BITS Pilani. I'm working under the guidance of [Prof Shan Balasubramaniam](http://www.bits-pilani.ac.in/pilani/sundarb/profile) and [Mr. Saiyedul Islam](http://www.bits-pilani.ac.in/pilani/sislam/profile). My work is on implementing parallel **hierarchical divisive algorithms** for graph clustering. I'm also working of a in-house **domain specific language for parallelising** clustering algorithms called, **DWARF**. The DWARF compiler analyses the code and generates optimised parallel code in **C++** using **MPI**.
+Currently I work in the **Advanced Data Analytics and Parallel Technologies** (ADAPT) **Lab** at BITS Pilani. I'm working under the guidance of [Prof Shan Balasubramaniam](http://www.bits-pilani.ac.in/pilani/sundarb/profile) and [Mr. Saiyedul Islam](http://www.bits-pilani.ac.in/pilani/sislam/profile). My work is on implementing parallel **hierarchical divisive algorithms** for graph clustering. I'm also working on an in-house **domain specific language for parallelising** clustering algorithms called, **DWARF**. The DWARF compiler analyses the code and generates optimised parallel code in **C++** using **MPI**.
 
 <br><br>
 

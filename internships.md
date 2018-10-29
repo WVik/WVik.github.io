@@ -2,7 +2,7 @@
 layout: page
 title: Internships
 ---
-
+<br> 
 
 ## 1. Microsoft - IDC, Hyderabad
 I worked with Microsoft India Development Center in the summer of 2018. I was in the STCI team, specifically Bing. There are multiple teams in Bing, and I was a part of the Knowledge Graph team, called **Satori**. I worked with one of India's leading data scientist, **Joy Mustafi**.

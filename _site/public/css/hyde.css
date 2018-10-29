@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", "Open Sans", sans-serif;
+  font-family: "Roboto", "Open Sans", sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -181,16 +181,16 @@ a.sidebar-nav-item:focus {
 
 /* Red */
 .theme-base-08 .sidebar {
-  background-color: #ac4142;
+  background-color: #069;
 }
 .theme-base-08 .content a,
 .theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
+  color: #069;
 }
 
 /* Orange */
 .theme-base-09 .sidebar {
-  background-color: #d28445;
+  background-color: #069;
 }
 .theme-base-09 .content a,
 .theme-base-09 .related-posts li a:hover {

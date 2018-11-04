@@ -17,7 +17,13 @@ As a part of the course **Data Mining (CS F415)**, I implemented classification 
 
 <br><br>
 
-## 3. SVD, LRA and Clustering algorithms
+## 3. Deep Learning in Python (Ongoing)
+This is an ongoing self-inspired project for the course **Neural Netowrks and Fuzzy Logic**. I'm exploring deep learning techniques in Python. The tools include **TensorFlow, Keras, Gym,** etc. The project includes codes for **Supervised, Unsupervised and Reinforcement** learning. I'm also working on the implementation of the brilliant paper [A Neural Algorithm of Artistic Style](https://www.google.co.in/search?q=a+neural+algorithm+of+artistic+style&oq=a+neural+algorithm+of+artistic+style&aqs=chrome..69i57j69i60j69i64l3j69i59.14961j0j7&sourceid=chrome&ie=UTF-8) for **style transfer algorithms**.
+* Implementation: [Code](https://github.com/WVik/Python-Deep-Learning)
+<br><br>
+
+
+## 4. SVD, LRA and Clustering algorithms
 I worked with [Prof. Rajiv Kumar](http://universe.bits-pilani.ac.in/pilani/rkumar/profile) in an independent project on **Graphs and Networks**. The project was on applications of two powerful linear algebra techniques, viz. **Singular Value Decomposition**, and **Low Rank Approximation** and their applications to graph clustering. **Python** scripts for finding out clusters in a graph was also written.
 * Implementation : [Code](https://github.com/WVik/clustering-algorithms-and-SVD)
 * Review Report: [Report](https://drive.google.com/file/d/1ESjxwRwke7yUaEkn5crUTA2MslGPoLRU/view?usp=sharing)
@@ -25,12 +31,12 @@ I worked with [Prof. Rajiv Kumar](http://universe.bits-pilani.ac.in/pilani/rkuma
 
 <br><br>
 
-## 4. YouTube Content Filter
+## 5. YouTube Content Filter
 This is an **extension for YouTube** which filters out unwanted videos from a user's feed. The titles of all videos on the page are analysed and based on the title text, the video is classified into categories. The user can choose what category of videos to blacklist. The video will be removed from the feed if it belongs to one of the blacklisted categories. This extension is reinforced by YouTube's algorithm for video suggestions. As the user watches less and less videos of a particular category, YouTube eventually won't suggest those videos. The code can be found [here](https://github.com/WVik/youtube-content-filter)
 
 <br><br>
 
-## 5. JavaScript Games
+## 6. JavaScript Games
 As a part of APOGEE (BITS Pilani's technical festival), I made a couple of multiplayer games in **JavaScript and PHP**. These were two player mathematical strategy games called **"Zombie Math"** and **"Gambling Math"**. The code can be found here:
 * [Zombie](https://github.com/WVik/zombie)
 * [Gambling](https://github.com/WVik/gamblingmath)

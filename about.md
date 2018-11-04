@@ -17,7 +17,7 @@ In my free time I usually code, read, do recreational math, watch movies, or pla
 * [Codechef](https://www.codechef.com/users/vikram_w)
 * [YouTube](https://www.youtube.com/channel/UCt0uhWAVivOhMyoiVjmAFMA)
 
-I'm also interested in astronomy and like to read up on topics like space travel and exploration and cosmology. Also, HG2G is one of my favorite books! :P   
+I'm also interested in astronomy and like to read up on topics like space travel and exploration and cosmology. Also, HG2G is one of my favourite books! 
 
 
 

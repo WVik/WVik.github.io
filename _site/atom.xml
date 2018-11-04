@@ -4,7 +4,7 @@
  <title>Vikram Waradpande</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-10-30T01:22:33+05:30</updated>
+ <updated>2018-10-30T10:08:01+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Vikram Waradpande</name>
@@ -17,21 +17,21 @@
    <link href="http://localhost:4000/2016/09/06/about/"/>
    <updated>2016-09-06T00:00:00+05:30</updated>
    <id>http://localhost:4000/2016/09/06/about</id>
-   <content type="html">&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am a fourth year undergrad at &lt;a href=&quot;http://www.bits-pilani.ac.in/&quot;&gt;Birla Institute of Technology and Science, Pilani&lt;/a&gt;. I’m pursuing &lt;strong&gt;B.E. Computer Science&lt;/strong&gt; and &lt;strong&gt;MSc. Mathematics&lt;/strong&gt; here at BITS (2015-20). You can find more about me &lt;a href=&quot;https://wvik.github.io/about/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;resume&quot;&gt;Resume&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+You can find my full resume here (&lt;a href=&quot;/pdf/Resume_VikramW.pdf&quot;&gt;Resume&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;You can find my full resume here (&lt;a href=&quot;/pdf/Resume_VikramW.pdf&quot;&gt;Resume&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;contact&quot;&gt;Contact&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;mailto:f2015454@pilani.bits-pilani.ac.in&quot;&gt;f2015454 [at] pilani [dot] bits-pilani [dot] ac [dot] in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;a href=&quot;mailto:f2015454@pilani.bits-pilani.ac.in&quot;&gt;f2015454 [at] pilani [dot] bits-pilani [dot] ac [dot] in&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;mailto:wvikram11@gmail.com&quot;&gt;wvikram11 [at] gmail [dot] com&lt;/a&gt;&lt;/p&gt;
 </content>

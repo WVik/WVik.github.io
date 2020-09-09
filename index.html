@@ -1,39 +1,150 @@
----
-layout: default
-title: Home
----
+<!doctype html>
 
-<div class="posts">
-  {% for post in paginator.posts %}
+<html lang="en">
 
-  <div class="post">
-    <h1 class="post-title">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Patua+One|Roboto|Source+Code+Pro" rel="stylesheet">
+    <title>My Website</title>
 
-        {{ post.title }}
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+    </style>
+    <link rel="stylesheet" href="style.css">
 
-    </h1>
-    <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
-    {{ post.content }}
-  </div>
+    <!-- Optional theme -->
 
-  {% endfor %}
-</div>
 
-<!--
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
--->
+    <!-- Latest compiled and minified JavaScript -->
+
+
+</head>
+
+<body>
+
+    <div class="body">
+
+
+        <!--<div class="sidebar">
+
+    <div class="sidebar-items">
+
+      <div class="item">M</div>
+      <div class="item">A</div>
+      <div class="item">I</div>
+      <div class="item">S</div>
+      <div class="item">C</div>
+
+    </div>
+
+</div>   !-->
+
+
+        <div class="container">
+            <!-- <div class="navbar">
+       <div class="menu menu-left">
+          <a href="#">ME</a> <a href="#">SKILLS</a> <a href="#">INTERESTS</a>  <a href="#">BLOG</a>
+       </div>
+       <div class="menu menu-right">
+         <a href="#">CONTACT <a href="#">SOME_RANDOM THING</a>
+       </div>
+ </div>  !-->
+
+            <div class="cards">
+
+                <div class="card card-me">
+                    <div class="inner innerme">
+                    </div>
+
+                    <div class="me">
+                        <div class="letter v">V</div>
+                        <div class="letter w">S</div>
+                    </div>
+
+                    <div class="pic">
+                    </div>
+
+
+                    <div class="bio">
+                        Hello Puggu! This is for you. I know we are far apart, but let's take a moment to cherish the wonderful moments we have had together! </div>
+                </div>
+
+
+                <div class="card card-interests">
+                    <div class="inner innerinterests"></div>
+
+
+                    <div class="likes-header">Puggu likes to.. </div>
+
+                    <div class="middle-square">
+                        <div class="belt">
+                            <div class="slide slide1"></div>
+                            <div class="slide slide2"></div>
+                            <div class="slide slide3"></div>
+                            <div class="slide slide4"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="like-container">
+                        <div class="like code"> Get Angry </div>
+
+                    </div>
+
+                    <div class="like pics">Our endless calls</div>
+                    <div class="like guitar"></div>
+                    <div class="like maths">Do Recreational Math </div>
+                    <div class="maths-handles">
+
+                    </div>
+
+
+                    <div class=" like do-fun">Laugh a lot</div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class="card card-skills">
+                    <div class="inner innerskills"></div>
+
+
+
+
+
+
+                    <div class="card card-contact">
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>

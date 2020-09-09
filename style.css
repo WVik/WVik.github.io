@@ -1,0 +1,429 @@
+body{
+  margin:0;
+}
+
+.body{
+	
+  display:flex;
+  position:relative;
+  width:100%;
+}
+
+.sidebar{
+	width: 7vw;
+	background: pink;
+	position:relative;
+	display: flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	-webkit-box-shadow: 15px 23px 91px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 23px 91px 7px rgba(0,0,0,0.75);
+box-shadow: 15px 23px 91px 7px rgba(0,0,0,0.75);
+    margin-right: 5%;
+
+
+}
+
+.sidebar-items{
+	position: fixed;
+	display: flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+   
+    max-width: 90%;
+    margin:1px;
+}
+
+.item{
+	margin-top:90%;
+	background: #dedcee;
+	padding: 5px;
+	font-size: 40px;
+	transform: rotateZ(2deg);
+
+}
+
+
+
+
+
+.navbar{
+  
+  top:0px;
+  width:100%;
+  background:#566270;
+  font-size:18px;
+}
+
+.container{
+  
+  display:flex;
+  position:relative;
+  width:90%;
+  flex-direction:column;
+  /*float: right;*/
+  margin: 0 auto;
+}
+
+.menu{
+  display:inline-block;
+  padding:20px;
+}
+
+.menu-right{
+  float:right;
+}
+
+.menu >a{
+  text-decoration:none;
+  padding:5px;
+  margin:4px;
+  color:white;
+}
+
+
+
+
+
+
+.cards{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+}
+
+.card{
+  width:auto;
+  height:100vh;
+  display:flex;
+  position:relative;
+  margin: 30px;
+  padding:10px;
+ }
+
+.inner{
+width:100%;
+height:100%;
+opacity: 0.7;
+filter:blur(0.4);
+}
+
+
+/* ----------------CARD-ME-----------------------------  */
+
+
+.card-me{
+z-index:1;   
+}
+
+
+.innerme{
+	background: #FFFFF3;
+}
+
+
+
+.card .me{
+  position:absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight:800;
+  font-size: 170px;
+  color:#FF7473;
+  top:10%;
+  right:18%;
+  display: flex;
+  align-items:center;
+}
+
+
+
+
+.letter{
+	display:flex;
+	
+	margin:0px;
+	padding:3px;
+	border-radius: 10px;
+}
+
+.v{
+   transition:transform 1s ease;	
+}
+
+.me:hover .v{
+	transform: rotateZ(20deg);
+	transform-origin:left top;
+}
+
+.card-me .bio{
+	display:flex;
+	position:absolute;
+	bottom:13%;
+	right:10%;
+	padding:20px;
+	max-width:35%;
+	font-size:35px;
+	font-family: 'Patua One', cursive;
+	color:black;
+	background: #9DC8C8;
+	-webkit-box-shadow: -25px 23px 72px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: -25px 23px 72px 7px rgba(0,0,0,0.75);
+box-shadow: -25px 23px 72px 7px rgba(0,0,0,0.75); 
+
+}
+
+
+.card-me .pic{
+	display:flex;
+	position:absolute;
+	top:20%;
+	left:20%;
+	padding:10px;
+	background-image: url("./img/hug.png"); background-repeat: no-repeat;
+	border-radius: 50px;
+	width: 40%;
+	height: 70%;
+
+}
+
+/* ----------------------------------CARD-SKILLS-----------------------------  */
+
+
+
+.card-skills{
+  
+
+}
+
+
+/* ------------------------------CARD-INTERESTS----------------------------*/
+
+
+
+.innerinterests{
+	background:#c6e5d9;
+	-webkit-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+border-radius: 5px;
+
+}
+
+.card-interests{
+  z-index:1;
+
+}
+
+.likes-header{
+  position:absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight:800;
+  font-size: 80px;
+  color:#FF7473;
+  top:5%;
+  left:2%;
+  display: flex;
+  align-items:center;
+  padding:10px;
+}
+
+.like-container{
+	position: absolute;
+	display: flex;
+	width:50%;
+	height:30%;
+	z-index: 1;
+	top:20%;
+	left:2%;
+}
+
+.code-handles{
+   z-index: 1;
+   position: absolute;
+   width:40%;
+   height:50%;
+   top:35%;
+   left:40%;
+   background:#FFFFF3;
+   -webkit-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+border-radius: 4px;
+opacity:0;
+transition: all 0.5s ease-in-out;
+
+}
+
+.like-container:hover .code-handles{
+opacity:1;
+
+}
+
+.code-handle-image{
+	padding:2%;
+	margin:5px;
+	position: absolute;
+	width:40%;
+	height:80%;
+}
+
+.hackerrank{
+	background-image: url('./img/hackerrank.png'); background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.codechef{
+	right:5%;
+	background-image: url('./img/codechef.jpeg'); background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.like{
+	
+	font-size: 49px;
+	margin:0 auto;
+	position:absolute;	
+	padding: 5px;
+	display: flex;
+	
+	
+}
+
+.like.code{
+	font-family: 'Source Code Pro', monospace;
+	top:20%;
+	left:4%;
+	background: #77AF9C;
+	-webkit-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+border-radius: 4px;
+}
+
+.like.pics{
+	font-family: 'Roboto';
+	top:15%;
+	right:6%;
+	color:#6a60a9;
+}
+
+.like.do-fun{
+  bottom:4%;
+  right:10%;
+  font-family: 'Roboto';
+}
+
+.like.maths{
+  top:50%;
+  left:5%;
+  font-family: 'Roboto';
+  background: #77AF9C;
+	-webkit-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+border-radius: 4px;
+height:10%;
+align-items:center;
+}
+
+.maths-handle-image{
+	padding:2%;
+	margin:5px;
+	position: absolute;
+	width:80%;
+	height:80%;
+	
+}
+
+.maths-handles{
+   z-index: 1;
+   position: absolute;
+   width:14%;
+   height:10%;
+   top:60%;
+   left:40%;
+   background:white;
+   -webkit-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+box-shadow: 21px 20px 49px 0px rgba(0,0,0,0.75);
+border-radius: 4px;
+opacity: 0;
+transition: all 0.5s ease-in-out;
+ 
+}
+
+.brilliant{
+	background-image: url("./img/brilliant.png");
+	background-size: 100% 100%;
+}
+
+.maths-handles:hover{
+	opacity: 1;
+}
+
+.like:nth-child(1){
+  top:0px;
+}
+
+
+.middle-square{
+	position: absolute;
+	width:30%;
+	height:30%;
+	background: white;
+	-webkit-box-shadow: -25px 23px 72px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: -25px 23px 72px 7px rgba(0,0,0,0.75);
+box-shadow: -25px 23px 72px 7px rgba(0,0,0,0.75);
+top:25%;
+right:4%;
+opacity: 0.8;
+overflow: hidden;
+border:3px solid black;
+
+
+}
+
+.slide{
+	
+	width: 100%;
+	height:100%;
+
+}
+
+.belt{
+	width:400%;
+	height:100%;
+	position: relative;
+	display: flex;
+
+}
+
+.slide1{
+	background-image: url('./img/group1.JPG');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.slide2{
+	background-image: url('./img/sparrow.JPG'); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+.slide3{
+	background-image: url('./img/greenbee.JPG');
+
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.slide4{
+	background-image: url('./img/greenbee3.JPG');
+
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}

@@ -1,147 +1,39 @@
-<!doctype html>
+---
+layout: default
+title: Home
+---
 
-<html lang="en">
+<div class="posts">
+  {% for post in paginator.posts %}
 
-<head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Patua+One|Roboto|Source+Code+Pro" rel="stylesheet">
-    <title>My Website</title>
+  <div class="post">
+    <h1 class="post-title">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-    </style>
-    <link rel="stylesheet" href="style.css">
+        {{ post.title }}
 
-    <!-- Optional theme -->
+    </h1>
+    <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
+    {{ post.content }}
+  </div>
 
+  {% endfor %}
+</div>
 
-    <!-- Latest compiled and minified JavaScript -->
-
-
-</head>
-
-<body>
-
-    <div class="body">
-
-
-        <!--<div class="sidebar">
-
-    <div class="sidebar-items">
-
-      <div class="item">M</div>
-      <div class="item">A</div>
-      <div class="item">I</div>
-      <div class="item">S</div>
-      <div class="item">C</div>
-
-    </div>
-
-</div>   !-->
-
-
-        <div class="container">
-            <!-- <div class="navbar">
-       <div class="menu menu-left">
-          <a href="#">ME</a> <a href="#">SKILLS</a> <a href="#">INTERESTS</a>  <a href="#">BLOG</a>
-       </div>
-       <div class="menu menu-right">
-         <a href="#">CONTACT <a href="#">SOME_RANDOM THING</a>
-       </div>
- </div>  !-->
-
-            <div class="cards">
-
-                <div class="card card-me">
-                    <div class="inner innerme">
-                    </div>
-
-                    <div class="me">
-                        <div class="letter v">V</div>
-                        <div class="letter w">S</div>
-                    </div>
-
-                    <div class="pic">
-                    </div>
-
-
-                    <div class="bio">
-                        Hello Puggu! This is for you. I know we are far apart, but let's take a moment to cherish the wonderful moments we have had together! </div>
-                </div>
-
-
-                <div class="card card-interests">
-                    <div class="inner innerinterests"></div>
-
-
-                    <div class="likes-header">Puggu likes to.. </div>
-
-                    <div class="middle-square">
-                        <div class="belt">
-                            <div class="slide slide1"></div>
-                            <div class="slide slide2"></div>
-                            <div class="slide slide3"></div>
-                            <div class="slide slide4"></div>
-                        </div>
-                    </div>
-
-                    <div class="like-container">
-                        <div class="like code"> Cry </div>
-
-
-
-                    </div>
-
-                    <div class="like pics">Our endless calls</div>
-
-                    <div class="like rpics">
-                        <img src="./img/cry1.jpeg" style="width:130px;height:100px;">
-                        <img src="./img/cry2.jpeg" style="width:130px;height:100px;">
-                        <img src="./img/cry3.jpeg" style="width:130px;height:100px;">
-                    </div>
-
-
-                    <div class="like sleep">Sleep </div>
-                    <div class="like sleeppugs">
-                        <img src="./img/sleep1.jpeg" style="width:130px;height:100px;">
-                        <img src="./img/sleep2.jpeg" style="width:130px;height:100px;">
-                        <img src="./img/sleep3.jpeg" style="width:130px;height:100px;">
-                    </div>
-
-                    <div class="like maths">Laugh </div>
-                    <div class="like laughp">
-                        <img src="./img/laugh1.jpeg" style="width:130px;height:100px;">
-                        <img src="./img/laugh2.jpeg" style="width:130px;height:100px;">
-                        <img src="./img/laugh3.jpeg" style="width:130px;height:100px;">
-                    </div>
-
-
-                    <div class="like hair">Do stuff with her hair :P </div>
-
-                    <div class="like hairst">
-                        <img src="./img/hair1.jpeg" style="width:150px;height:150px;">
-                        <img src="./img/hair2.jpeg" style="width:150px;height:150px;">
-                        <img src="./img/hair3.jpeg" style="width:150px;height:150px;">
-                    </div>
-
-
-                    <div class="like love">And I love my puggu in all entirety in all her moods!! </div>
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-
-
-
-
-    <script src="script.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
-
-</html>
+<!--
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+-->

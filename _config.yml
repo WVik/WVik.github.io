@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+
+
+# Setup
+title:            Vikram Waradpande
+tagline:          '4th Year Undergraduate'
+description:      'BITS, Pilani'
+url:              https://wvik.github.io/
+baseurl:          /
+
+author:
+  name:           'Vikram Waradpande'
+  url:            https://wvik.github.io/
+
+plugins:          [jekyll-paginate]
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/WVik/wvik.github.io

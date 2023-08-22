@@ -1,39 +1,283 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<div class="posts">
-  {% for post in paginator.posts %}
+    <title>Vikram Waradpande</title>
 
-  <div class="post">
-    <h1 class="post-title">
+    <meta name="author" content="Vikram Waradpande">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        {{ post.title }}
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  </head>
 
-    </h1>
-    <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
-    {{ post.content }}
-  </div>
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Vikram Waradpande
+                </p>
+                <p>I second year Computer Science student at <a href="https://ai.google/research">Columbia University</a> pursuing Computer Science with a speciliazation in Machine Learning. I am broadly interested in Reinforcement Learning, Representation Learning and Parallel/Distributed Computing
+                </p>
+                <p>
+                  I completed my Bachelor's from BITS, Pilani <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a> in Computer Science and Mathematics. After completing my undergrad, I spent two incredible years as a Software Engineer (Associate) at Goldman Sachs in the Bengaluru office in India. I was a part of the Macro Trading desk. 
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:wvikram11n@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/vikram-waradpande">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="data/Vikram_Waradpande_resume.pdf">Resume</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/wvik/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:40%;max-width:40%;border-radius:25px;">
+                <a href="images/ProfilePic.jpg"><img style="width:100%;max-width:100%;border-radius:215px;" alt="profile photo" src="images/ProfilePic.jpg" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
 
-  {% endfor %}
-</div>
 
-<!--
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
--->
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+        <td style="padding:20px;width:100%;vertical-align:middle">
+          <h2>Research and Talks</h2>
+          <p>
+            Here's a glimpse of my activities.
+          </p>
+        </td>
+      </tr>
+    </tbody></table>
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two">   
+            <img src='images/pycon_parallel.jpg' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://www.youtube.com/watch?v=uoMB9QNzUuM">
+            <span class="papertitle">PyCon Italia, Florence 2023</span>
+          </a>
+          <br>
+          <br>
+          <strong>Talk on Parallel Programming using MPI in Python</strong>,
+          <br>        
+          <a href="https://www.youtube.com/watch?v=uoMB9QNzUuM">Video</a>
+          <p></p>
+          <p>
+          Recently I spoke at PyCon (world's largest Python conference) Italia chapter held in Florence, Italy from 25th to 28th May, 2023. My talk intrduced beginners to the world of parallel and distributed programming using MPI. I touched upon why and when to and when not to use parallel programming.
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two">   
+            <img src='images/pycon_dp.jpg' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://www.youtube.com/watch?v=uoMB9QNzUuM">
+            <span class="papertitle">PyCon Italia, Florence 2023</span>
+          </a>
+          <br>
+          <br>
+          <strong>Talk on Parallel Programming using MPI in Python</strong>,
+          <br>        
+          <a href="https://www.youtube.com/watch?v=uoMB9QNzUuM">Video</a>
+          <p></p>
+          <p>
+          I spoke in PyCon Italia on introduction to Differential Privacy and how to use Differential Privacy in Python using the PyDP module. We also touched upon the common usecases of DP, and how Machine Learning algorithms can benefit from using DP principles.
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src='images/mlg.jpg' width="190" height="130">
+          </div>
+         
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://www.mlgworkshop.org/2020/papers/MLG2020_paper_20.pdf">
+            <span class="papertitle">Graph-based State Representation for Deep Reinforcement Learning</span>
+          </a>
+          <br>     
+            <strong>Vikram Waradpande</strong>, <a href="https://personal.l3s.uni-hannover.de/~kudenko/">Daniel Kudenko</a>, <a href="https://khosla.github.io/">Megha Khosla</a>
+          <br>
+          <em><a hore="https://www.mlgworkshop.org/2020/">MLG-KDD, 2020</a></em>
+          <br>
+          <a href="https://www.youtube.com/watch?v=n7-XdEl_Ehs">Video</a> / 
+          <a href="https://arxiv.org/abs/2004.13965">arXiv</a>
+          <p></p>
+          <p>Graph-based State Representation for Deep Reinforcement Learning. Deep Reinforcement Learning has gained popularity in recent years. While these approaches have been successful, they still suffer from high sample complexity. Neural networks are able to extract features from the input space, but in this work, we explore how better input representations to the network can improve its performance. The underlying MDP of an RL task represents a graph. This enables us to incorporate topological information in the input representations. We use and compare several node representation learning algorithms for a grid-world navigation task. We find out that all embedding methods outperform the simpler matrix input to the network. We also perform a systematic comparison and conclude that the first neural approach for learning node representations outperforms most of the other methods. Our results suggest that more research may be needed in developing deep learning models for graphs that can improve over the (relatively simple) DeepWalk baseline.</p>
+        </td>
+      </tr>
+    </table>
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+      <td style="padding:20px;width:100%;vertical-align:middle">
+        <h2>Projects</h2>
+        <p>
+          Some projects I've been working on.
+        </p>
+      </td>
+    </tr>
+  </tbody></table>
+
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two">   
+            <img src='images/ama.jpg' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <!-- <a href="https://docs.google.com/document/d/1c2lOhXTXrF0_TVLTJ2rfPlk7LfmW93scRzlbh7K_68c/edit?usp=sharing"> -->
+            <span class="papertitle">SumItUp: LLM based AskMeAnything for Market Research</span>
+          </a>
+          <br>
+          <br>
+          <strong>Using GPT to act as a Ask Me Anything engine to learn information from interview notes, meeting minutes, and research notes.</strong>,
+          <br>        
+          <!-- <a href="https://docs.google.com/document/d/1c2lOhXTXrF0_TVLTJ2rfPlk7LfmW93scRzlbh7K_68c/edit?usp=sharing">Report</a> -->
+          <p></p>
+          <p>
+           This summer, I spent 10 incredible weeks at<a href="https://www.linkedin.com/company/aleth-inc/"> Aleth </a>, a small startup based in Berkeley. As with any startup, a very important part of business development is performing market research. We had tens of interviews every single day and being a small team of 7 people, there wasn't enough time to go through the interviews and create refined notes about the insights that we draw from the interviews. This prompted me to create SumItUp, an internal tool which automatically sums up the interview notes, and the internal documents containing our research into an AMA format. Anyone can ask any question to the AMA agent about a topic that needs to be understood from the interviews and the agent uses GPT to draw insights from the interviews to answer your question.
+          </p>
+        </td>
+      </tr>
+          
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two">   
+            <img src='images/pollinc.jpg' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://docs.google.com/document/d/1c2lOhXTXrF0_TVLTJ2rfPlk7LfmW93scRzlbh7K_68c/edit?usp=sharing">
+            <span class="papertitle">PolInc: Political Inclination in Social Networks</span>
+          </a>
+          <br>
+          <br>
+          <strong>Using Haskell to Simulate a social network influences Politics</strong>,
+          <br>        
+          <a href="https://docs.google.com/document/d/1c2lOhXTXrF0_TVLTJ2rfPlk7LfmW93scRzlbh7K_68c/edit?usp=sharing">Report</a>
+          <p></p>
+          <p>
+            In large social networks, indicators of centrality can be used to assign rankings to people within a graph corresponding to their network position. Top influencers preaching for a particular political party directly influence their followers/first-level connections. Each person can directly preach their inclination to their contacts as well. Thus, we see a large-scale diffusion of information from each influencer to all the other nodes at a network level. We can score each person in the network based on the information they receive on each political party and use it to determine the overall sentiment of the population. In this project, we attempt to simulate the flow of influence from top influencers in a social network to assign net scores to each member of the population which we plan to use to determine the overall political inclination of the population.
+          </p>
+        </td>
+      </tr>
+
+      <!-- <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two">   
+            <img src='images/pycon_dp.jpg' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://www.youtube.com/watch?v=uoMB9QNzUuM">
+            <span class="papertitle">PyCon Italia, Florence 2023</span>
+          </a>
+          <br>
+          <br>
+          <strong>Talk on Parallel Programming using MPI in Python</strong>,
+          <br>        
+          <a href="https://www.youtube.com/watch?v=uoMB9QNzUuM">Video</a>
+          <p></p>
+          <p>
+          I spoke in PyCon Italia on introduction to Differential Privacy and how to use Differential Privacy in Python using the PyDP module. We also touched upon the common usecases of DP, and how Machine Learning algorithms can benefit from using DP principles.
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src='images/mlg.jpg' width="190" height="130">
+          </div>
+         
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://www.mlgworkshop.org/2020/papers/MLG2020_paper_20.pdf">
+            <span class="papertitle">Graph-based State Representation for Deep Reinforcement Learning</span>
+          </a>
+          <br>     
+            <strong>Vikram Waradpande</strong>, <a href="https://personal.l3s.uni-hannover.de/~kudenko/">Daniel Kudenko</a>, <a href="https://khosla.github.io/">Megha Khosla</a>
+          <br>
+          <em><a hore="https://www.mlgworkshop.org/2020/">MLG-KDD, 2020</a></em>
+          <br>
+          <a href="https://www.youtube.com/watch?v=n7-XdEl_Ehs">Video</a> / 
+          <a href="https://arxiv.org/abs/2004.13965">arXiv</a>
+          <p></p>
+          <p>Graph-based State Representation for Deep Reinforcement Learning. Deep Reinforcement Learning has gained popularity in recent years. While these approaches have been successful, they still suffer from high sample complexity. Neural networks are able to extract features from the input space, but in this work, we explore how better input representations to the network can improve its performance. The underlying MDP of an RL task represents a graph. This enables us to incorporate topological information in the input representations. We use and compare several node representation learning algorithms for a grid-world navigation task. We find out that all embedding methods outperform the simpler matrix input to the network. We also perform a systematic comparison and conclude that the first neural approach for learning node representations outperforms most of the other methods. Our results suggest that more research may be needed in developing deep learning models for graphs that can improve over the (relatively simple) DeepWalk baseline.</p>
+        </td>
+      </tr> -->
+      
+      
+    
+    </table>
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+      <td style="padding:20px;width:100%;vertical-align:middle">
+        <h2>Miscellaneous</h2>
+        <p>
+          Misc Fun Stuff!
+        </p>
+      </td>
+    </tr>
+  </tbody></table>
+
+
+
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+      <!-- <tr>
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two">   
+            <img src='images/ama.jpg' width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <span class="papertitle">SumItUp: LLM based AskMeAnything for Market Research</span>
+          </a>
+          <br>
+          <br>
+          <strong>Using GPT to act as a Ask Me Anything engine to learn information from interview notes, meeting minutes, and research notes.</strong>,
+          <br>        
+          <p></p>
+          <p>
+           This summer, I spent 10 incredible weeks at<a href="https://www.linkedin.com/company/aleth-inc/"> Aleth </a>, a small startup based in Berkeley. As with any startup, a very important part of business development is performing market research. We had tens of interviews every single day and being a small team of 7 people, there wasn't enough time to go through the interviews and create refined notes about the insights that we draw from the interviews. This prompted me to create SumItUp, an internal tool which automatically sums up the interview notes, and the internal documents containing our research into an AMA format. Anyone can ask any question to the AMA agent about a topic that needs to be understood from the interviews and the agent uses GPT to draw insights from the interviews to answer your question.
+          </p>
+        </td>
+      </tr> -->
+    </table>
+
+
+  </body>
+</html>
